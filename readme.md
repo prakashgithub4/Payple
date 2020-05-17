@@ -63,3 +63,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Third Party
+<b>composer require league/omnipay omnipay/paypal</b>
+Omnipay is the most popular payment processing library for PHP. It gives you a easy and clean code for integrating a different payment gateways. Install Omnipay library using the command:
+
+
+
