@@ -71,5 +71,14 @@ Omnipay is the most popular payment processing library for PHP. It gives you a e
 https://artisansweb.net/paypal-payment-gateway-integration-in-laravel/
 
 
+## Constent Add for env
+<p>Add your own Client Id and App secret key from payple developer account</p>
+
+PAYPAL_CLIENT_ID=Aee_zm6CyaLaqGjC76MPNgZvTz2GHW1t9XbMXtG_k2ZZyTvjKoLgTVj7EQ0ZAszKxRIgVMDEkZF9bStD
+PAYPAL_CLIENT_SECRET=EKkox2biAsny-dcPuF0N4OoZkyUPW7Ex9Tyg8pIaICz_e1SCq-20Z6eukzjLDjfjODPLeEzxXZwhM2J3
+PAYPAL_CURRENCY=INR
+
+
+
 
 
