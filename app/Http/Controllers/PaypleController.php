@@ -62,7 +62,7 @@ class PaypleController extends Controller
             {
                 // The customer has successfully paid.
                 $arr_body = $response->getData();
-               print_r($arr_body); exit;
+              
                 // Insert transaction data into the database
                 $isPaymentExist = Payment::where('payment_id', $arr_body['id'])->first();
          
