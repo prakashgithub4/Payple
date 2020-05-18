@@ -65,7 +65,7 @@ class PaypleController extends Controller
               
                 // Insert transaction data into the database
                 $isPaymentExist = Payment::where('payment_id', $arr_body['id'])->first();
-         
+            
                 if(!$isPaymentExist)
                 {
                     $payment = new Payment;
